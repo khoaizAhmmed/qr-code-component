@@ -37,6 +37,7 @@ img{
   font-size: 22px;
   margin: 14px 0;
   font-weight: 700;
+  color: var(--dark-blue);
 }
 p{
   font-size: 15px;
@@ -51,4 +52,13 @@ p{
   padding:14px;
   margin-bottom: 40px;
   background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
